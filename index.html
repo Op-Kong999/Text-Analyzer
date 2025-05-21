@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Analyzer</title>
+  <script src="jquery-3.7.1.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Text Analyzer</h1>
+    <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+
+    <div class="inputs">
+      <input type="text" id="specific-word" placeholder="Word to count or bold" />
+    </div>
+
+    <div class="buttons">
+      <button id="analyze-btn">Analyze</button>
+    </div>
+
+    <div class="results">
+      <p>Total Words: <span id="total-words">0</span></p>
+      <p>'<span id="word-count-term"></span>' Count: <span id="specific-word-count">0</span></p>
+      <p>Top 3 Words: <span id="top-words"></span></p>
+      <p>Output: <span id="processed-output"></span></p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
